@@ -181,9 +181,13 @@ p1 {
 }
 
 .project-image {
-    margin-top: 25px;
-    width: 300px;
-    border-radius: 152px;
+    margin-top: 2px;
+    width: 250px;
+    /* margin-right: 20px; */
+    /* align-items: end;
+    padding-right: 20px; */
+    border-radius: 10px;
+    
 }
 
 
