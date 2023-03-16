@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/d84b511e36.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
     <meta charset="UTF-8" />
   </head>
@@ -13,17 +15,20 @@
     <section class="hero">
         <nav>
             <img class="logo" src="src/images/logo.png" alt="Elsa Chen's logo">
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="nav-list">
+                <li><a class="regular-link" href="#about-me">About me</a></li>
+                <li><a class="regular-link" href="#experience">Experiences</a></li>
+                <li><a class="regular-link" href="#contact">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Elsa Chen</h1>
-                <p>Software Engineering Student</p>
-                <div class="button">About me</div>
+                <p>4th year Software Engineering Student</p>
+                <div class="button"><a class="regular-link" href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <!-- <div>TW</div> -->
@@ -37,38 +42,43 @@
         </div>   
     </section>
 
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
-            <p1>Hello. My name is Elsa Chen. I am a 4th year Software Engineering Student at University of Alberta. </p>
+            <p1>Hello. My name is Elsa Chen.<br> 
+                I am a 4th year Software Engineering Student at University of Alberta.</p1>    
         </div>
         <div class="headshot-container">
             <img class="headshot" src="src/images/IMG_7044 2.jpg"/>
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="experience">
         <h2>Work Experience</h2>
         <div class="project-container">
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image"/>
-                <h3>Project One</h3>
-                <p class="subtext">This is my project and some text about it.</p>
+                <h3>Fraud Data Analyst Intern    ATB Financial</h3>
+                <p class="subtext">• Acted as Product Owner for Tableau data dashboard project and ATB 101 community project. <br>
+                    • Analyzed data trends on Mastercard side and implemented fraud metrics rules.
+                </p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/elsachen0907">View Here</a></p>
             </div>
 
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image"/>
-                <h3>Project two</h3>
-                <p class="subtext">This is my project and some text about it.</p>
+                <h3>Omnia AI Data Engineer Intern</h3>
+                <p class="subtext">• Developed tools with SQL & Python to analyse COVID case data and forecast future trends.<br>
+                    • Translated business rules and requirements into Power BI dashboards.</p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/elsachen0907">View Here</a></p>
             </div>
 
             <div class="project-card">
                 <img class="project-image" src="" alt="Project One Image"/>
-                <h3>Project Three</h3>
-                <p class="subtext">This is my project and some text about it.</p>
+                <h3>Research & Development Intern</h3>
+                <p class="subtext">• Developed tools with Python for testing the functionality of the autonomous vehicle body.<br>
+                    • Conducted data analysis of output from vehicle sensors(validation of timestamp, current state.)</p>
                 <hr/>
                 <p class="subtext"><a class="project-link" href="https://github.com/elsachen0907">View Here</a></p>
             </div>
@@ -82,7 +92,11 @@
             </div> -->
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact">
+        <h2>Contact me</h2>
+        <p1>xiaoyi9@ualberta.ca</p1>
+
+    </footer>
 
     <script src="src/app.js"></script>
   </body>
