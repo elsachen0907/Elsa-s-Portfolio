@@ -133,7 +133,7 @@ p1 {
 
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #f59496;
 
 }
 
@@ -176,7 +176,7 @@ p1 {
 }
 
 .headshot {
-    width: 300px;
+    width: 400px;
     border-radius: 150px;
 }
 
@@ -197,7 +197,7 @@ p1 {
     margin-bottom: 30px;
     /* background-color: rgb(168, 229, 255); */
     background-color: rgb(228, 247, 255);
-    /* border: 3px solid rgb(154, 231, 254); */
+    /* border: 8px solid rgb(154, 231, 254); */
     /* justify-content: space-around; */
     /* align-items: center; */
 }
