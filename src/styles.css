@@ -78,6 +78,7 @@ h4 {
 .role_title{
     margin-left: 20px;
     margin-top: 25px;
+    padding-top: 10px;
     /* float: left; */
 }
 
@@ -97,7 +98,7 @@ p1 {
 .subtext {
     font-size: 15px;
     font-weight: 300;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-left: 20px;
 
 }
@@ -186,8 +187,8 @@ p1 {
 }
 
 .project-card {
-    width: 900px;
-    height: 300px;
+    width: 1000px;
+    height: 289px;
     border-radius: 10px;
     /* width: 250px;
     height: 500px; */
@@ -236,6 +237,7 @@ p1 {
 hr {
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 
